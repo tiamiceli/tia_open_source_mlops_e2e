@@ -1,7 +1,7 @@
-"""Tests for templatte."""
+"""Tests."""
 
 
-from templatte import __version__
+from tia_open_source_mlops_e2e import __version__
 
 
 def test_version() -> None:

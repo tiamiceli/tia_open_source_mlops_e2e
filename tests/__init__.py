@@ -1,1 +1,1 @@
-"""The templatte tests."""
+"""The tests."""

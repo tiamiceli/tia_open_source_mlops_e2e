@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "templatte"
+name = "tia_open_source_mlops_e2e"
 version = "0.1.0"
-description = "A bit of an opinionated setup."
-authors = ["Stark, Dylan <dylan.stark@gmail.com>"]
+description = "OReilly MLOps."
+authors = ["Miceli, Tia <miceli@fnal.gov>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]

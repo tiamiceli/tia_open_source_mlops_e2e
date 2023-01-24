@@ -7,7 +7,6 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<3.12"
-dvc = {extras = ["all"], version = "^2.43.1"}
 numba = "^0.56.4"
 python-box = "^6.1.0"
 jupyter = "^1.0.0"

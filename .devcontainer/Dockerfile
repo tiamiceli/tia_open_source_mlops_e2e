@@ -8,7 +8,8 @@ RUN \
     apt-get upgrade \
     && apt-get update \
     && apt-get install -y bash-completion curl \
-    && pip install pre-commit
+    && pip install pre-commit \
+    && pip install dvc[all]
 
 # Coding only for vscode user and not root
 USER vscode

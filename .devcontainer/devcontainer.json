@@ -31,14 +31,16 @@
 			"tests"
 		],
 		"python.terminal.activateEnvironment": true,
-		"python.testing.pytestEnabled": true
+		"python.testing.pytestEnabled": true,
+		"dvc.dvcPath": "/usr/local/bin/dvc"
 	},
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"cucumberopen.cucumber-official",
 		"ms-python.python",
 		"ms-python.vscode-pylance",
-		"redhat.vscode-yaml"
+		"redhat.vscode-yaml",
+		"iterative.dvc"
 	],
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "make setup",
